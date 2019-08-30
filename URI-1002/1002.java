@@ -7,10 +7,10 @@ public class Main {
         
         Scanner teclado = new Scanner(System.in);
         
-		double pi = 3.14159;
-		double raio = teclado.nextDouble();
-		double area = pi * Math.pow(raio, 2);
-		System.out.printf("A=%.4f", area);
+		double doublePi = 3.14159;
+		double doubleRaio = teclado.nextDouble();
+		double doubleArea = doublePi * Math.pow(raio, 2);
+		System.out.printf("A=%.4f", doubleArea);
 		System.out.println();
  
     }
